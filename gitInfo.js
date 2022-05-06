@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+const gitDefinition = `Git is a repository for projects; basically one single folder that contains the entire project and every single version you "saved" and added to Git.`
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+const gitHubDefinition = `Github is a website that allows you to take your local Git repositories and upload/download them.`
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +26,7 @@
 */
 
 //CODE HERE
-
+const gitInitDefinition =`This command will initialize a local repository in the current folder you reside.`
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +34,7 @@
 */
 
 //CODE HERE
-
+const gitCloneDefinition = `This command is used to point to an existing repository and make a "clone," or copy, of that repository in a new directory, at another location. --Paraphrased from google search.`
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +42,7 @@
 */
 
 //CODE HERE
-
+const gitStatusDefinition = `This command is used to get the machine to tell you about the repository in question.`
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +53,8 @@
 */
 
 //CODE HERE
-
+const gitAddDefinition = `This command is used to add the files you would like the repository to track.`
+const gitAddCode = `git add .`
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,7 +65,8 @@
 */
 
 //CODE HERE
-
+const gitCommitDefinition =`This code is used to create and store "snapshots" of the files you have asked the repository to track.`
+const gitCommitCode = `git commit -m "[Insert a message in here (The first commit is usually "Initial Commit")]"`
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +75,4 @@
 */
 
 //CODE HERE
+const gitPushDefinition = `This command is used to send the committed information to the website Github. This is the equivilent to "saving" for files.`
